@@ -22,10 +22,10 @@ const translations = {
     hero_blessing_text: "Open to everyone with a covered head, a calm mind, and an open heart.",
     hero_cta_program: "See weekly program",
     hero_cta_visit: "Plan your visit",
-    hero_card_label: "September 4-6, 2026",
-    hero_card_title: "Parkash Guru Granth Sahib Ji Akhand Path",
-    hero_card_text: "Akhand Path in observance of Parkash Guru Granth Sahib Ji.",
-    hero_card_time: "September 4-6, 2026",
+    hero_card_label: "November 8, 2026",
+    hero_card_title: "Bandi Chhor (Diwali)",
+    hero_card_text: "Bandi Chhor and Diwali are celebrated together with the Sangat.",
+    hero_card_time: "November 8, 2026",
     hero_card_address: "Stockholm, Sweden",
     info_hukamnama_title: "Hukamnama",
     info_hukamnama_text: "New daily",
@@ -127,10 +127,10 @@ const translations = {
     hero_blessing_text: "ਢੱਕੇ ਸਿਰ, ਸ਼ਾਂਤ ਮਨ ਅਤੇ ਖੁੱਲੇ ਦਿਲ ਨਾਲ ਹਰ ਕੋਈ ਜੀ ਆਇਆਂ ਨੂੰ।",
     hero_cta_program: "ਹਫ਼ਤਾਵਾਰ ਪ੍ਰੋਗਰਾਮ ਵੇਖੋ",
     hero_cta_visit: "ਆਪਣਾ ਦੌਰਾ ਯੋਜਨਾ ਬਣਾਓ",
-    hero_card_label: "4-6 ਸਤੰਬਰ 2026",
-    hero_card_title: "ਪ੍ਰਕਾਸ਼ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਅਖੰਡ ਪਾਠ",
-    hero_card_text: "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਦੇ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਅਖੰਡ ਪਾਠ।",
-    hero_card_time: "4-6 ਸਤੰਬਰ 2026",
+    hero_card_label: "8 ਨਵੰਬਰ 2026",
+    hero_card_title: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ (ਦੀਵਾਲੀ)",
+    hero_card_text: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ ਅਤੇ ਦੀਵਾਲੀ ਸੰਗਤ ਨਾਲ ਮਿਲ ਕੇ ਮਨਾਏ ਜਾਣਗੇ।",
+    hero_card_time: "8 ਨਵੰਬਰ 2026",
     hero_card_address: "ਸਟਾਕਹੋਮ, ਸਵੀਡਨ",
     info_hukamnama_title: "ਹੁਕਮਨਾਮਾ",
     info_hukamnama_text: "ਹਰ ਰੋਜ਼",
@@ -211,9 +211,60 @@ const translations = {
   }
 };
 
+const featuredEvents = {
+  bandiChhor: {
+    sv: {
+      label: "8 november 2026",
+      title: "Bandi Chhor (Diwali)",
+      text: "Bandi Chhor och Diwali firas tillsammans med Sangat.",
+      time: "8 november 2026",
+      address: "Stockholm, Sverige"
+    },
+    en: {
+      label: "November 8, 2026",
+      title: "Bandi Chhor (Diwali)",
+      text: "Bandi Chhor and Diwali are celebrated together with the Sangat.",
+      time: "November 8, 2026",
+      address: "Stockholm, Sweden"
+    },
+    pa: {
+      label: "8 ਨਵੰਬਰ 2026",
+      title: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ (ਦੀਵਾਲੀ)",
+      text: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ ਅਤੇ ਦੀਵਾਲੀ ਸੰਗਤ ਨਾਲ ਮਿਲ ਕੇ ਮਨਾਏ ਜਾਣਗੇ।",
+      time: "8 ਨਵੰਬਰ 2026",
+      address: "ਸਟਾਕਹੋਮ, ਸਵੀਡਨ"
+    }
+  },
+  guruNanak: {
+    sv: {
+      label: "27–29 november 2026",
+      title: "Guru Nanak Dev Ji Parkash Purab – Akhand Path",
+      text: "Akhand Path med anledning av Guru Nanak Dev Jis Parkash Purab.",
+      time: "27–29 november 2026",
+      address: "Stockholm, Sverige"
+    },
+    en: {
+      label: "November 27–29, 2026",
+      title: "Guru Nanak Dev Ji Parkash Purab – Akhand Path",
+      text: "Akhand Path in observance of Guru Nanak Dev Ji's Parkash Purab.",
+      time: "November 27–29, 2026",
+      address: "Stockholm, Sweden"
+    },
+    pa: {
+      label: "27–29 ਨਵੰਬਰ 2026",
+      title: "ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ – ਅਖੰਡ ਪਾਠ",
+      text: "ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦੇ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਅਖੰਡ ਪਾਠ।",
+      time: "27–29 ਨਵੰਬਰ 2026",
+      address: "ਸਟਾਕਹੋਮ, ਸਵੀਡਨ"
+    }
+  }
+};
+
 const fallbackContent = {
   sv: {
     programs: [
+      { day: "8 november 2026", title: "Bandi Chhor (Diwali)", description: "Bandi Chhor och Diwali firas tillsammans med Sangat.", time: "", link_url: "", link_label: "" },
+      { day: "27–29 november 2026", title: "Guru Nanak Dev Ji Parkash Purab – Akhand Path", description: "Akhand Path med anledning av Guru Nanak Dev Jis Parkash Purab.", time: "", link_url: "", link_label: "" },
       { day: "Söndag", title: "Samlingsplats", description: "Kirtan, Katha, Ardas och gemensam Langar.", time: "Söndagar från kl. 10:00", link_url: "", link_label: "" },
       { day: "Söndagar", title: "Hemspråksundervisning för barn 6-16 år", description: "Punjabiundervisning för barn och ungdomar i en trygg och lärorik miljö.", time: "På söndagar", link_url: "", link_label: "" },
       { day: "Söndagar", title: "Kirtan- och musikundervisning", description: "Undervisning i kirtan och musik för barn och ungdomar som vill lära sig och delta.", time: "På söndagar", link_url: "", link_label: "" },
@@ -242,10 +293,11 @@ const fallbackContent = {
   },
   en: {
     programs: [
+      { day: "November 8, 2026", title: "Bandi Chhor (Diwali)", description: "Bandi Chhor and Diwali are celebrated together with the Sangat.", time: "", link_url: "", link_label: "" },
+      { day: "November 27–29, 2026", title: "Guru Nanak Dev Ji Parkash Purab – Akhand Path", description: "Akhand Path in observance of Guru Nanak Dev Ji's Parkash Purab.", time: "", link_url: "", link_label: "" },
       { day: "Sunday", title: "Gathering place", description: "Kirtan, Katha, Ardas, and shared Langar.", time: "Sundays from 10:00", link_url: "", link_label: "" },
       { day: "Sundays", title: "Mother tongue classes for children ages 6-16", description: "Punjabi language teaching for children and youth in a safe and supportive environment.", time: "On Sundays", link_url: "", link_label: "" },
       { day: "Sundays", title: "Kirtan and music classes", description: "Teaching in kirtan and music for children and youth who want to learn and participate.", time: "On Sundays", link_url: "", link_label: "" },
-      { day: "September 4-6, 2026", title: "Parkash Guru Granth Sahib Ji Akhand Path", description: "Akhand Path in observance of Parkash Guru Granth Sahib Ji.", time: "", link_url: "", link_label: "" },
       { day: "Daily", title: "Hukamnama", description: "The day's guidance from Guru Granth Sahib Ji.", time: "", link_url: "", link_label: "" },
       { day: "As needed", title: "Family ceremonies", description: "Contact us for Ardas, Akhand Path, or special prayers.", time: "", link_url: "#contact", link_label: "Contact us" }
     ],
@@ -271,10 +323,11 @@ const fallbackContent = {
   },
   pa: {
     programs: [
+      { day: "8 ਨਵੰਬਰ 2026", title: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ (ਦੀਵਾਲੀ)", description: "ਬੰਦੀ ਛੋੜ ਦਿਵਸ ਅਤੇ ਦੀਵਾਲੀ ਸੰਗਤ ਨਾਲ ਮਿਲ ਕੇ ਮਨਾਏ ਜਾਣਗੇ।", time: "", link_url: "", link_label: "" },
+      { day: "27–29 ਨਵੰਬਰ 2026", title: "ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ – ਅਖੰਡ ਪਾਠ", description: "ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦੇ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਅਖੰਡ ਪਾਠ।", time: "", link_url: "", link_label: "" },
       { day: "ਐਤਵਾਰ", title: "ਸੰਗਤ ਦਾ ਸਥਾਨ", description: "ਕੀਰਤਨ, ਕਥਾ, ਅਰਦਾਸ ਅਤੇ ਸਾਂਝਾ ਲੰਗਰ।", time: "ਐਤਵਾਰ ਸਵੇਰੇ 10 ਵਜੇ ਤੋਂ", link_url: "", link_label: "" },
       { day: "ਐਤਵਾਰ", title: "ਬੱਚਿਆਂ 6-16 ਸਾਲ ਲਈ ਮਾਤ੍ਰ-ਭਾਸ਼ਾ ਕਲਾਸਾਂ", description: "ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਸੁਰੱਖਿਅਤ ਅਤੇ ਹੌਸਲਾ-ਅਫ਼ਜ਼ਾਈ ਮਾਹੌਲ ਵਿੱਚ ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਦੀ ਪੜ੍ਹਾਈ।", time: "ਐਤਵਾਰ ਨੂੰ", link_url: "", link_label: "" },
       { day: "ਐਤਵਾਰ", title: "ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਕਲਾਸਾਂ", description: "ਉਹ ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਦੀ ਪੜ੍ਹਾਈ ਜੋ ਸਿੱਖਣਾ ਅਤੇ ਭਾਗ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹਨ।", time: "ਐਤਵਾਰ ਨੂੰ", link_url: "", link_label: "" },
-      { day: "4-6 ਸਤੰਬਰ 2026", title: "ਪ੍ਰਕਾਸ਼ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਅਖੰਡ ਪਾਠ", description: "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਦੇ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਅਖੰਡ ਪਾਠ।", time: "", link_url: "", link_label: "" },
       { day: "ਹਰ ਰੋਜ਼", title: "ਹੁਕਮਨਾਮਾ", description: "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਤੋਂ ਦਿਨ ਦਾ ਸੰਦੇਸ਼।", time: "", link_url: "", link_label: "" },
       { day: "ਜ਼ਰੂਰਤ ਅਨੁਸਾਰ", title: "ਪਰਿਵਾਰਕ ਸਮਾਗਮ", description: "ਅਰਦਾਸ, ਅਖੰਡ ਪਾਠ ਜਾਂ ਖਾਸ ਅਰਦਾਸਾਂ ਲਈ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।", time: "", link_url: "#contact", link_label: "ਸੰਪਰਕ ਕਰੋ" }
     ],
@@ -312,6 +365,13 @@ const documentListNode = document.querySelector("[data-document-list]");
 const hukamnamaQuoteNode = document.querySelector('[data-i18n="hukamnama_quote"]');
 const hukamnamaTextNode = document.querySelector('[data-i18n="hukamnama_text"]');
 const hukamnamaLinkNode = document.querySelector('[data-i18n="hukamnama_cta"]');
+const heroCardNodes = {
+  label: document.querySelector('[data-i18n="hero_card_label"]'),
+  title: document.querySelector('[data-i18n="hero_card_title"]'),
+  text: document.querySelector('[data-i18n="hero_card_text"]'),
+  time: document.querySelector('[data-i18n="hero_card_time"]'),
+  address: document.querySelector('[data-i18n="hero_card_address"]')
+};
 const externalHukamnamaUrl = "https://hs.sgpc.net/";
 const defaultTexts = {};
 const defaultAttributes = {};
@@ -323,6 +383,29 @@ const editableContent = {
 let hukamnamaRefreshTimeoutId;
 
 const getSelectedLanguage = (lang) => (lang === "sv" ? "sv" : (translations[lang] ? lang : "sv"));
+
+const getStockholmDateKey = (date = new Date()) => {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Stockholm",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+};
+
+const applyFeaturedEvent = (lang, date = new Date()) => {
+  const selectedLanguage = getSelectedLanguage(lang);
+  const eventKey = getStockholmDateKey(date) >= "2026-11-09" ? "guruNanak" : "bandiChhor";
+  const event = featuredEvents[eventKey][selectedLanguage];
+
+  Object.entries(heroCardNodes).forEach(([field, node]) => {
+    if (node) {
+      node.textContent = event[field];
+    }
+  });
+};
 
 const getPageKey = () => {
   const path = window.location.pathname.toLowerCase();
@@ -398,17 +481,21 @@ const scheduleDailyHukamnamaRefresh = () => {
   }
 
   hukamnamaRefreshTimeoutId = window.setTimeout(() => {
-    applyDailyHukamnama(document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv");
+    const selectedLanguage = document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv";
+    applyDailyHukamnama(selectedLanguage);
+    applyFeaturedEvent(selectedLanguage);
     scheduleDailyHukamnamaRefresh();
   }, (nextRefresh.getTime() - now.getTime()) + 100);
 };
 
 const syncDailyHukamnamaIfNeeded = () => {
+  const selectedLanguage = document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv";
   const currentDateKey = getHukamnamaDateKey();
   if (currentDateKey !== activeHukamnamaDateKey) {
-    applyDailyHukamnama(document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv");
+    applyDailyHukamnama(selectedLanguage);
     scheduleDailyHukamnamaRefresh();
   }
+  applyFeaturedEvent(selectedLanguage);
 };
 
 const normalizeItem = (item, fields) => {
@@ -536,6 +623,7 @@ const refreshLocalizedContent = (lang) => {
   renderPrograms(lang);
   renderDocuments(lang);
   applyDailyHukamnama(lang);
+  applyFeaturedEvent(lang);
   updateDocumentTitle(lang);
 };
 
