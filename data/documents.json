@@ -45,29 +45,6 @@
         "pa": "PDF ਖੋਲ੍ਹੋ"
       },
       "file": "protokoll/protokoll-2026-02-06.pdf"
-    },
-    {
-      "meta": {
-        "sv": "2025-12-28",
-        "en": "2025-12-28",
-        "pa": "2025-12-28"
-      },
-      "title": {
-        "sv": "Styrelsemöte",
-        "en": "Board meeting",
-        "pa": "ਸਟਾਇਰਲਸਮੋਤੇ"
-      },
-      "summary": {
-        "sv": "Öppna PDF-filen för att läsa styrelsemötets protokoll från 2025-12-28.",
-        "en": "Open the PDF file to read the board meeting protocol from 2025-12-28.",
-        "pa": "2025-12-28 ਦੇ ਸਟਾਇਰਲਸਮੋਤੇ ਦਾ ਪ੍ਰੋਟੋਕੋਲ ਪੜ੍ਹਣ ਲਈ PDF ਫਾਈਲ ਖੋਲ੍ਹੋ।"
-      },
-      "link_label": {
-        "sv": "Öppna PDF",
-        "en": "Open PDF",
-        "pa": "PDF ਖੋਲ੍ਹੋ"
-      },
-      "file": "protokoll/arsmote-protokoll-2026-05-19.pdf"
     }
   ]
 }
